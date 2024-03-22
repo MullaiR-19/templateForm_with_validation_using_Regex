@@ -1,0 +1,17 @@
+#head, #para, #table {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    //height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  #table {
+        padding-top: 5px;
+  }
+  
+  /* Optional: Center the content inside the table cells */
+  table {
+    width: 100%; /* Make the table fill the width of its container */
+    text-align: center; /* Center the text inside table cells */
+  }
+  

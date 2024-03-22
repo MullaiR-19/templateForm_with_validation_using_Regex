@@ -1,0 +1,22 @@
+<div id="head">
+    <h1>This is my home page</h1>
+</div>
+<br>
+<div id="para">
+    <p>Home page content goes here</p>
+</div>
+<div id="table">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <app-login [userLogin]="users"></app-login>
+                </td>
+
+                <td>
+                    <app-register (dataCarrage)="registerEvent($event)"></app-register>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,32 @@
+<form #registerForm="ngForm">
+    <div class="container">
+        <h1>Register</h1>
+    </div>
+    <div><label for="name">User name</label>
+        <input type="text" id="name" name="name" ngModel required>
+    </div>
+    <br>
+    <div><label for="sname">Surname</label>
+        <input type="text" id="sname" name="sname" ngModel required>
+    </div>
+    <br>
+    <div><label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" ngModel required>
+    </div>
+    <br>
+    <div><label for="number">Mobile Number</label>
+        <input type="number" id="number" name="number" ngModel required>
+    </div>
+    <br>
+    <div><label for="age">Age</label>
+        <input type="number" id="age" name="age" ngModel required>
+    </div>
+    <br>
+    <div><label for="password">Password</label>
+        <input type="password" id="password" name="password" ngModel required>
+    </div>
+    <br>
+    <div>
+        <button type="button" (click)="registerEvent(registerForm)">Submit</button>
+    </div>
+</form>
